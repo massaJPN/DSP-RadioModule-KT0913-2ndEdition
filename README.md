@@ -91,3 +91,9 @@ TOPページ：https://akizukidenshi.com/catalog/c/c0/
   I2CsendMULTIbyte();
   }
 ```
+
+[![紹介動画]()](https://youtu.be/vZIJL4G87UQ)
+
+## 関連ブログ
+https://massa4649.com/kt0913_2/  
+
