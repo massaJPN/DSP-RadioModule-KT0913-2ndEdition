@@ -4,7 +4,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)
 
 ## 概要  
-KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとBUSコネクタで接続、I2C通信で制御するラジオモジュールです。  
+KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
 ワイドFM放送およびAM放送に対応しています。  
 水晶振動子などのラジオIC駆動に必要な全ての回路部品を実装済です。  
 音声出力用のΦ3.5mmステレオイヤホンジャックを実装しています。  
