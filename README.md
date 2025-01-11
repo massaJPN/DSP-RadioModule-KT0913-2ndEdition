@@ -70,11 +70,10 @@ TOPページ：https://akizukidenshi.com/catalog/c/c0/
 |8|AUDIO OUT|Output|optional function:To use the built-in speaker of M5stack. （※from KT0913 left channel output(Not directly)|
 |12|+3.3V|Power|Power supply (※2.1～3.6V)|
 |15|EN|Input|Chip enable. internal 600kΩ Pulldown (※connected to pin9 of KT0913)|
-|16|detect Earphones|Output|if earphone is connected,"low"/ not connected,"High"|
+|16|Earphone DETECT|Output|if earphone is connected,"low"/ not connected,"High"|
 |17|SDA|Digital I/O|SDA of 2-wire interface|
 |18|SCL|Digital I/O|SCL of 2-wire interface|
 |othes|NC|-|Non Connection|
-
 
 ## 使用例
 
