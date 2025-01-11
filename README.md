@@ -47,7 +47,7 @@ TOPページ：https://akizukidenshi.com/catalog/c/c0/
 
 ## 組み立て
 ・M5Stackとの接続側のBUSコネクタ（ピンヘッダ）を実装しています。基板反対面のBUSコネクタ（ピンソケット）は、次に説明する組立例を参考にしてご自身でハンダ付けをお願いします。  
-![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)
+![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
 ※ 製品の構造上、M5Stack本体側フレームとΦ3.5mmステレオイヤホンジャックが少し干渉しますがご理解ください。 
 
 ### 組み立て例1  
