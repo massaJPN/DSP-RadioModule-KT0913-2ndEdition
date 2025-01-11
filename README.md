@@ -4,7 +4,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)
 
 ## 概要  
-KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとBUSコネクタで接続し使用するラジオモジュールです。  
+KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとBUSコネクタで接続、I2C通信で制御するラジオモジュールです。  
 ワイドFM放送およびAM放送に対応しています。  
 水晶振動子などのラジオIC駆動に必要な全ての回路部品を実装済です。  
 音声出力用のΦ3.5mmステレオイヤホンジャックを実装しています。  
@@ -14,20 +14,19 @@ FM受信ロッドアンテナ接続用のΦ3.5mmミニジャックを実装し�
 オーディオイヤホンをアンテナとして使用することもできます。  
 
 ## 選局/周波数変更
-モジュールの◯◯番端子はKT0913のチップイネーブル端子の9番ピンに接続されています。I2C制御を開始する前にHighにすることが必要です。
-受信チャンネルの選局方法については、I2C制御でKT0913の周波数に関するレジスタ設定値を変更することで周波数を上下に可変できます。  
+### I2C通信を始める前に  
+・M5Stack本体と重ねて接続することで、M5StackのG16端子（GPIO) とKT0913のチップイネーブル端子（9番端子）が接続されます。  
+・KT0913とI2C通信を開始する前にチップイネーブル端子をHighにする必要があります。  
+
+### 受信チャンネルの選局方法   
+・KT0913の周波数に関するレジスタ設定値を変更することで周波数を上下に可変できます。  
 TUNE [Address 0X03]
 |FMCHAN<11:0>|Example|
 |-----|-----|
 |0110 1011 1000|0X06B8 = 1720*50kHz = 86MHz |
 
-受信可能な周波数をシークする機能もあります。  
-
-
-
-
-## 音量調節
-音量の調節について、I2C制御でKT0913の音量に関するレジスタ設定値を変更することで可変できます。  
+### 音量調節方法
+・KT0913の音量に関するレジスタ設定値を変更することで可変できます。  
 RXCFG [Address 0X0F]
 |VOLUME<4:0>|Attenuation|
 |-----|-----|
@@ -40,36 +39,42 @@ RXCFG [Address 0X0F]
 |00001|-60dB|
 |00000|Mute|
 
-## その他
+## データシート、その他
 ・2025年1月現在においては、KT0913は電子部品ショップの秋月電子さんでも販売されていますので、そちらのWEBサイトにデータシートがありますのでご参照下さい。  
 TOPページ：https://akizukidenshi.com/catalog/c/c0/  
 販売コード：117873  
 ・モジュールに実装されている水晶振動子は、デフォルトのレジスタ設定で動作するように32.768kHzを使用しています。
 
 ## 外観
-・M5Stackとの接続用のM-BUSコネクタmaleを実装しています。基板反対面のfemaleコネクタは、次に説明する組立例を参考にしてご自身でハンダ付けをお願いします。  
+・M5Stackとの接続側のBUSコネクタ（オス）を実装しています。基板反対面のBUSコネクタ（メス）は、次に説明する組立例を参考にしてご自身でハンダ付けをお願いします。  
 ![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)
 
-## 組立例1  
+### 組立例1  
+・"Proto Pegboard Module - 13.2" に付属のフレームを使用する場合  
 
 
-## 組立例2  
+### 組立例2  
+・おまけとして付属している3Dプリントフレームを使用する場合  
 
 
 
 
+※ M5Stack側のボディー形状の制約上、Φ3.5mmステレオイヤホンジャック部分は少し勘合があまいです。
 
 ## 端子配列
 |Pin|Pin Name|I/O|Function|
 |-----|-----|-----|-----|
 |1|GND|Ground|Ground|
-|2|NC|-|Non Connection|
-|3|SCL|Digital I/O|SCL of 2-wire interface|
-|4|EN|Input|Chip enable. internal 600kΩ Pulldown (※connected to pin9 of KT0913)|
-|5|SDA|Digital I/O|SDA of 2-wire interface|
-|6|NC|-|Non Connection|
-|7|+3.3V|Power|Power supply (※2.1～3.6V)|
-|8|NC|-|Non Connection|
+|3|GND|Ground|Ground|
+|5|GND|Ground|Ground|
+|8|AUDIO OUT|Output|optional function:To use the built-in speaker of M5stack. （※from KT0913 left channel output(Not directly)|
+|12|+3.3V|Power|Power supply (※2.1～3.6V)|
+|15|EN|Input|Chip enable. internal 600kΩ Pulldown (※connected to pin9 of KT0913)|
+|16|detect Earphones|Output|if earphone is connected,"low"/ not connected,"High"|
+|17|SDA|Digital I/O|SDA of 2-wire interface|
+|18|SCL|Digital I/O|SCL of 2-wire interface|
+|othes|NC|-|Non Connection|
+
 
 ## 使用例
 
