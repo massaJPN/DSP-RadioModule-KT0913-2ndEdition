@@ -1,5 +1,5 @@
 # M5Stack用ワイドFM対応ラジオモジュール
-https://manage.booth.pm/items/6387580/の製品説明となります。 
+https://manage.booth.pm/items/6387580/の製品説明となります。　 
 写真掲載  
 ![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
 
