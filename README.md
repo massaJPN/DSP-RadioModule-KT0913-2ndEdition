@@ -1,7 +1,7 @@
 # M5Stack用ワイドFM対応ラジオモジュール
 https://manage.booth.pm/items/6387580/の製品説明となります。  
-写真掲載  
-![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
+
+![Image](https://github.com/user-attachments/assets/12dc7616-5410-40e7-96d6-37e147372872)
 
 ## 概要
 ・KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
@@ -20,21 +20,37 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ※ 製品の構造上、M5Stack本体側フレームとΦ3.5mmステレオイヤホンジャックが少し干渉しますがご理解ください。 
 
 ### 組み立て例1
-#### "Proto Pegboard Module - 13.2" に付属のフレームを使用する場合
+#### "Proto Pegboard Module - 13.2" のフレームを使用する場合
 ①M5-13.2モジュール用 2x15 SMDピンソケットを使用します。  
-②必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
+![Image](https://github.com/user-attachments/assets/161e9512-5bb5-4ad2-ad0a-c62c84caf888)  
+
+②イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
+また、必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
+
+・イヤホン用のジャック部分の加工  
+![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
+・アンテナ用ジャック部分の加工  
+![Image](https://github.com/user-attachments/assets/da37bd5f-c231-4b82-b00d-3e10c4b2b96a)  
+・ボリューム部分の加工  
+![Image](https://github.com/user-attachments/assets/7241ce93-f1be-462b-ac31-798bb4cedfcb)  
+
 ③基板とフレームをタッピングネジで固定します。  
-
-説明写真  
-
+![Image](https://github.com/user-attachments/assets/faa5f4e3-a27a-43fe-b798-546ec6c2a5a0)  
 
 ### 組み立て例2
-#### おまけとして同梱している3Dプリントフレームを使用する場合
-①標準サイズのM5Stack用SMDピンソケットを使用します。  
+#### おまけとして同梱している3Dプリントフレームを使用する場合  
+①<span style="color: blue;">標準サイズ</span>のM5Stack用SMDピンソケットを使用します。  
 ②必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
 ③基板とフレームをタッピングネジで固定します。  
 
-説明写真  
+イヤホン用のジャック部分の加工  
+![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
+アンテナ用ジャック部分の加工  
+![Image](https://github.com/user-attachments/assets/da37bd5f-c231-4b82-b00d-3e10c4b2b96a)
+ボリューム部分の加工  
+![Image](https://github.com/user-attachments/assets/7241ce93-f1be-462b-ac31-798bb4cedfcb)
+
+
 
 
 ## 端子配列
