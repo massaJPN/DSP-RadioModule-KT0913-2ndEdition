@@ -1,7 +1,8 @@
 # M5Stack用ワイドFM対応ラジオモジュール
 https://manage.booth.pm/items/6387580/の製品説明となります。  
 
-![Image](https://github.com/user-attachments/assets/12dc7616-5410-40e7-96d6-37e147372872)
+![Image](https://github.com/user-attachments/assets/1e84b4b8-c360-4c21-b7af-963106e3a978)
+※販売形態では写真の2x15ピンソケットは未実装です。  
 
 ## 概要
 ・KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
@@ -9,26 +10,27 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ・水晶振動子などのラジオIC駆動に必要な全ての回路部品を実装済です。  
 ・音声出力用のΦ3.5mmステレオイヤホンジャックを実装しています。  
 ・FM受信はイヤホンをアンテナすることができます。  
-・FM受信アンテナ接続用のΦ3.5mmミニジャックを実装しています。 
+・FM受信アンテナ接続用のΦ3.5mmミニジャックを実装しています。  
 ・AMラジオ用アンテナを接続することができます。（アンテナは別途用意が必要）  
 ・I2CでコントロールするプログラムでワイドFMラジオ放送が簡単に楽しめます。(サンプルプログラム付き）  
 
 ## 組み立て方
-・M5Stackとの接続側のBUSコネクタ（ピンヘッダ）を実装しています。  
-  基板反対面のBUSコネクタ（ピンソケット）は、次に説明する組立例を参考にしてご自身でハンダ付けをお願いします。  
-![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
-※ 製品の構造上、M5Stack本体側フレームとΦ3.5mmステレオイヤホンジャックが少し干渉しますがご理解ください。 
+M5Stackとの接続側のBUSコネクタ（ピンヘッダ）を実装していますので以下の3点をご自身で作業をお願いします。  
+・基板反対面のBUSコネクタ（ピンソケット）のはんだ付け  
+・フレームの加工  
+・フレームと基板のネジ止め  
+※ 製品の構造上、M5Stack本体側フレームとΦ3.5mmジャックがごくわずかですが干渉します。ご理解ください。 
 
 ### 組み立て例1
 #### "Proto Pegboard Module - 13.2" のフレームを使用する場合
-①M5-13.2モジュール用 2x15 SMDピンソケットを使用します。  
-![Image](https://github.com/user-attachments/assets/161e9512-5bb5-4ad2-ad0a-c62c84caf888)  
+①**M5-13.2モジュール用** 2x15 SMDピンソケットを使用します。  
+![Image](https://github.com/user-attachments/assets/01d986d3-2a7d-4804-ae8b-612721f10215)
 
 ②イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
 また、必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
 
 ・イヤホン用のジャック部分の加工  
-![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
+![Image](https://github.com/user-attachments/assets/b9bfa94e-9880-4871-877b-fb78653a4123)  
 ・アンテナ用ジャック部分の加工  
 ![Image](https://github.com/user-attachments/assets/da37bd5f-c231-4b82-b00d-3e10c4b2b96a)  
 ・ボリューム部分の加工  
@@ -39,19 +41,13 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
-①<span style="color: blue;">標準サイズ</span>のM5Stack用SMDピンソケットを使用します。  
+①**標準サイズ**のM5Stack用SMDピンソケットを使用します。  
+![Image](https://github.com/user-attachments/assets/01d986d3-2a7d-4804-ae8b-612721f10215)
+
 ②必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
+
+
 ③基板とフレームをタッピングネジで固定します。  
-
-イヤホン用のジャック部分の加工  
-![module2-30per](https://github.com/user-attachments/assets/3c74b1cb-6309-4528-93c6-1831bfa8984b)  
-アンテナ用ジャック部分の加工  
-![Image](https://github.com/user-attachments/assets/da37bd5f-c231-4b82-b00d-3e10c4b2b96a)
-ボリューム部分の加工  
-![Image](https://github.com/user-attachments/assets/7241ce93-f1be-462b-ac31-798bb4cedfcb)
-
-
-
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
@@ -68,7 +64,6 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 |17|SDA|Digital I/O|SDA of 2-wire interface|
 |18|SCL|Digital I/O|SCL of 2-wire interface|
 |othes|NC|-|Non Connection|
-
 
 ## 受信周波数選局/音量変更
 ### I2C通信を始める前に
