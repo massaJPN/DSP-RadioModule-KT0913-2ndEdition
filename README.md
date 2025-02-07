@@ -11,7 +11,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ・音声出力用のΦ3.5mmステレオイヤホンジャックを実装しています。  
 ・FM受信はイヤホンをアンテナすることができます。  
 ・FM受信アンテナ接続用のΦ3.5mmミニジャックを実装しています。  
-・AMラジオ用アンテナを接続することができます。（アンテナは別途用意が必要）  
+・AMラジオ用アンテナを接続することでAM放送を受信できます。（アンテナは別途用意が必要です）  
 ・I2CでコントロールするプログラムでワイドFMラジオ放送が簡単に楽しめます。(サンプルプログラム付き）  
 
 ## 組み立て方
@@ -102,10 +102,11 @@ RXCFG [Address 0X0F]
 ・サンプルプログラムを製品販売サイトに掲載しています。  
 ・ご自身によるプログラム開発にあたり、KT0913のデータシートを熟読のほどお願いします。  
 ・周波数の可変範囲はICのレジスタ設定で決定します。（ICの機能としては32MHz～110MHzの受信が可能）  
-・プログラミング次第ですが、サンプルプログラムのデフォルト設定では、周波数変更の手段としてM5StackのボタンA、Bを使用できます。  
-・Aボタンで100kHzアップ、Bボタンで100kHzダウンします。  
+・プログラミング次第ですが、サンプルプログラムのデフォルト設定では、周波数変更の手段としてM5StackのボタンB、Cを使用できます。  
+・Cボタンで100kHzアップ、Bボタンで100kHzダウンします。  
+・AボタンでFM/AMバンド切替します。
 ```
-  if (M5.BtnA.wasPressed() && dial == 0 && AM_FM == "FM") {
+  if (M5.BtnB.wasPressed() && dial == 0 && AM_FM == "FM") {
     REGISTER_ADDRESS = TUNE;
     I2CreadMULTIbyte();
     data = (data + 0x0002) | 0B1000000000000000; // + 100KHz step   = 100/50  76MHz - 94.1MHz
@@ -115,7 +116,7 @@ RXCFG [Address 0X0F]
   I2CsendMULTIbyte();
   }
 
-  if (M5.BtnB.wasPressed() && dial == 0 && AM_FM == "FM") {
+  if (M5.BtnC.wasPressed() && dial == 0 && AM_FM == "FM") {
     REGISTER_ADDRESS = TUNE;
     I2CreadMULTIbyte();
 
@@ -125,6 +126,21 @@ RXCFG [Address 0X0F]
     }
   I2CsendMULTIbyte();
   }
+
+if (M5.BtnA.wasReleasefor(50) && (AM_FM == "FM") ){
+  M5.Display.setCursor(0, 85);
+  M5.Display.setTextSize(1);
+  M5.Display.setFont(&fonts::Font7);
+  M5.Display.print("     ");
+  am_mode();
+}
+else if (M5.BtnA.wasReleasefor(50) && (AM_FM == "AM") ){
+  M5.Display.setCursor(0, 85);
+  M5.Display.setTextSize(1);
+  M5.Display.setFont(&fonts::Font7);
+  M5.Display.print("     ");
+  fm_mode();
+}
 ```
 
 [![紹介動画]()](https://youtu.be/vZIJL4G87UQ)
