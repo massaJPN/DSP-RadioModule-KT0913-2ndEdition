@@ -44,7 +44,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
-
+![Image](https://github.com/user-attachments/assets/f7a60b60-cb6f-49b8-8703-3814ea14fc1a)  
 |Pin No.|Pin Name|I/O|Function|
 |-----|-----|-----|-----|
 |1|GND|Ground|Ground|
