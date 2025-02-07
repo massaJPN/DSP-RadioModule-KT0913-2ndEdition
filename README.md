@@ -1,7 +1,7 @@
 # M5Stack用ワイドFM対応ラジオモジュール
 https://manage.booth.pm/items/6387580/ の製品説明となります。  
 
-![Image](https://github.com/user-attachments/assets/09691a90-e723-47fd-a6b3-503f8538b858)  
+![Image](https://github.com/user-attachments/assets/568a3024-8545-4302-8e9c-567f6165033c)  
 ※販売形態ではM5-13.2モジュール用 2x15ピンソケットを使用しています。  
 
 ## 概要
@@ -44,7 +44,6 @@ https://manage.booth.pm/items/6387580/ の製品説明となります。
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
-![Image](https://github.com/user-attachments/assets/f7a60b60-cb6f-49b8-8703-3814ea14fc1a)  
 |Pin No.|Pin Name|I/O|Function|
 |-----|-----|-----|-----|
 |1|GND|Ground|Ground|
