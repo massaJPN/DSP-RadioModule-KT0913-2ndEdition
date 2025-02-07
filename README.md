@@ -2,7 +2,7 @@
 https://manage.booth.pm/items/6387580/の製品説明となります。  
 
 ![Image](https://github.com/user-attachments/assets/09691a90-e723-47fd-a6b3-503f8538b858)  
-※販売形態では写真の2x15ピンソケットは未実装です。  
+※販売形態ではM5-13.2モジュール用 2x15ピンソケットを使用しています。  
 
 ## 概要
 ・KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
@@ -18,14 +18,14 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ### 組み立て例1
 #### "Proto Pegboard Module - 13.2" のフレームを使用する場合
 ①イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
-また、必要に応じてAMアンテナ取り付け部のフレームを加工します。  
+外部のAMアンテナを接続する場合は、必要であればAMアンテナ取り付け部のフレームを加工します。  
 ※スピーカーを配置する部分に穴あけ加工をすれば音量はアップします。
 
-・イヤホン用のジャック部分の加工  
+・イヤホン用のジャック部分の加工例  
 ![Image](https://github.com/user-attachments/assets/dd5fa7c8-73ca-4188-a5f5-d5eb1687c0e3)  
-・アンテナ用ジャック部分の加工  
+・アンテナ用ジャック部分の加工例  
 ![Image](https://github.com/user-attachments/assets/b3670c72-bcb9-45a0-8d43-509095031c6a)  
-・ボリューム部分の加工  
+・ボリューム部分の加工例  
 ![Image](https://github.com/user-attachments/assets/dfe2ef9e-3366-42d7-9cb3-f686de6fe858)  
 
 ②基板とフレームをタッピングネジで固定します。  
@@ -33,7 +33,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
-①外付けのAMアンテナを接続する場合はAMアンテナ取り付け部のフレームを切り抜く加工します。  
+①外付けのAMアンテナを接続する場合は、AMアンテナ取り付け部のフレームを切り抜く加工します。  
 ![Image](https://github.com/user-attachments/assets/ab077d64-b992-43eb-93bc-1f38736c34f5)  
 
 ②基板とフレームをタッピングネジで固定します。  
