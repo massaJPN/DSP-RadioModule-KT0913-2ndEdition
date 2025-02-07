@@ -17,10 +17,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ## 組み立て方
 ### 組み立て例1
 #### "Proto Pegboard Module - 13.2" のフレームを使用する場合
-①**M5-13.2モジュール用**  
-![Image](https://github.com/user-attachments/assets/01d986d3-2a7d-4804-ae8b-612721f10215)
-
-②イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
+①イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
 また、必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
 
 ・イヤホン用のジャック部分の加工  
@@ -30,22 +27,16 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ・ボリューム部分の加工  
 ![Image](https://github.com/user-attachments/assets/7241ce93-f1be-462b-ac31-798bb4cedfcb)  
 
-③基板とフレームをタッピングネジで固定します。  
+②基板とフレームをタッピングネジで固定します。  
 ![Image](https://github.com/user-attachments/assets/faa5f4e3-a27a-43fe-b798-546ec6c2a5a0)  
 
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
-①**標準サイズ**のM5Stack用SMDピンソケットを使用します。  
-![Image](https://github.com/user-attachments/assets/29141c02-983c-40aa-9e14-1c2bcca67924)  
-
-②必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを切り抜くなどの加工します。  
+①必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを切り抜くなどの加工します。  
 
 
-③基板とフレームをタッピングネジで固定します。  
+②基板とフレームをタッピングネジで固定します。  
 ![Image](https://github.com/user-attachments/assets/267b301c-e537-4206-bf3f-c02d329d561f)
-
-※注　製品の構造上、M5Stack本体側フレームとΦ3.5mmジャックがごくわずかですが干渉します。ご理解ください。 
-![Image](https://github.com/user-attachments/assets/6f2a4ac6-3cf7-4e60-8321-36c91f4a8368)
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
