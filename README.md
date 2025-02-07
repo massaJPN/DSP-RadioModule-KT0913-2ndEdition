@@ -37,10 +37,10 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ![Image](https://github.com/user-attachments/assets/ab077d64-b992-43eb-93bc-1f38736c34f5)  
 
 ②基板とフレームをタッピングネジで固定します。  
-![Image](https://github.com/user-attachments/assets/6ff92a3c-9cbb-4d0e-9d82-e55c3cea6dbe)  
+![Image](https://github.com/user-attachments/assets/3c573ea2-04b5-4866-95a0-9035f3d39746)  
 
 ③スピーカーはMBUS端子横に配置します。  
-  
+![Image](https://github.com/user-attachments/assets/6ff92a3c-9cbb-4d0e-9d82-e55c3cea6dbe)  
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
