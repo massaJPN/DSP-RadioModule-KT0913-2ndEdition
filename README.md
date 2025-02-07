@@ -40,7 +40,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ![Image](https://github.com/user-attachments/assets/267b301c-e537-4206-bf3f-c02d329d561f)
 
 ③スピーカーはMBUS端子横に配置します。  
-![Image](https://github.com/user-attachments/assets/a4822eb2-e2b6-4e1b-8936-ad48e7894fd1)  
+![Image](https://github.com/user-attachments/assets/d95897fe-bb80-412b-a5f5-a4079b2d94df)  
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
