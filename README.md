@@ -34,13 +34,13 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
 ①外付けのAMアンテナを接続する場合はAMアンテナ取り付け部のフレームを切り抜く加工します。  
-![Image](https://github.com/user-attachments/assets/b5aa4d13-395b-4881-9d79-5a77120ce552)  
+![Image](https://github.com/user-attachments/assets/ab077d64-b992-43eb-93bc-1f38736c34f5)  
 
 ②基板とフレームをタッピングネジで固定します。  
-![Image](https://github.com/user-attachments/assets/267b301c-e537-4206-bf3f-c02d329d561f)
+![Image](https://github.com/user-attachments/assets/6ff92a3c-9cbb-4d0e-9d82-e55c3cea6dbe)  
 
 ③スピーカーはMBUS端子横に配置します。  
-![Image](https://github.com/user-attachments/assets/d95897fe-bb80-412b-a5f5-a4079b2d94df)  
+  
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
