@@ -1,7 +1,7 @@
 # M5Stack用ワイドFM対応ラジオモジュール
 https://manage.booth.pm/items/6387580/の製品説明となります。  
 
-![Image](https://github.com/user-attachments/assets/1e84b4b8-c360-4c21-b7af-963106e3a978)
+![Image](https://github.com/user-attachments/assets/09691a90-e723-47fd-a6b3-503f8538b858)  
 ※販売形態では写真の2x15ピンソケットは未実装です。  
 
 ## 概要
@@ -22,14 +22,14 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ※スピーカーを配置する部分に穴あけ加工をすれば音量はアップします。
 
 ・イヤホン用のジャック部分の加工  
-![Image](https://github.com/user-attachments/assets/b9bfa94e-9880-4871-877b-fb78653a4123)  
+![Image](https://github.com/user-attachments/assets/dd5fa7c8-73ca-4188-a5f5-d5eb1687c0e3)  
 ・アンテナ用ジャック部分の加工  
-![Image](https://github.com/user-attachments/assets/da37bd5f-c231-4b82-b00d-3e10c4b2b96a)  
+![Image](https://github.com/user-attachments/assets/b3670c72-bcb9-45a0-8d43-509095031c6a)  
 ・ボリューム部分の加工  
-![Image](https://github.com/user-attachments/assets/7241ce93-f1be-462b-ac31-798bb4cedfcb)  
+![Image](https://github.com/user-attachments/assets/dfe2ef9e-3366-42d7-9cb3-f686de6fe858)  
 
 ②基板とフレームをタッピングネジで固定します。  
-![Image](https://github.com/user-attachments/assets/faa5f4e3-a27a-43fe-b798-546ec6c2a5a0)  
+![Image](https://github.com/user-attachments/assets/578d076c-d022-4de9-aa6c-fdab14ce0194)  
 
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
@@ -37,10 +37,10 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ![Image](https://github.com/user-attachments/assets/ab077d64-b992-43eb-93bc-1f38736c34f5)  
 
 ②基板とフレームをタッピングネジで固定します。  
-![Image](https://github.com/user-attachments/assets/3c573ea2-04b5-4866-95a0-9035f3d39746)  
+![Image](https://github.com/user-attachments/assets/07fae77c-9b94-43bc-b874-0560126bc029)  
 
 ③スピーカーはMBUS端子横に配置します。  
-![Image](https://github.com/user-attachments/assets/6ff92a3c-9cbb-4d0e-9d82-e55c3cea6dbe)  
+![Image](https://github.com/user-attachments/assets/50f9a562-3681-4e01-9e43-95282baf8bff)  
 
 ## 端子配列
 ・製品の端子配列は下表の通りです。  
