@@ -18,7 +18,7 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 ### 組み立て例1
 #### "Proto Pegboard Module - 13.2" のフレームを使用する場合
 ①イヤホンジャック、ダイヤル式可変抵抗、アンテナ用ジャック部分のフレームの加工をします。  
-また、必要に応じてAMアンテナ取り付け部、および外部スピーカー取り付け部のフレームを加工します。  
+また、必要に応じてAMアンテナ取り付け部のフレームを加工します。  
 
 ・イヤホン用のジャック部分の加工  
 ![Image](https://github.com/user-attachments/assets/b9bfa94e-9880-4871-877b-fb78653a4123)  
@@ -32,8 +32,8 @@ https://manage.booth.pm/items/6387580/の製品説明となります。
 
 ### 組み立て例2
 #### おまけとして同梱している3Dプリントフレームを使用する場合  
-①必要に応じてAMアンテナ取り付け部のフレームを切り抜くなどの加工します。  
-
+①外付けのAMアンテナを接続する場合はAMアンテナ取り付け部のフレームを切り抜く加工します。  
+![Image](https://github.com/user-attachments/assets/b5aa4d13-395b-4881-9d79-5a77120ce552)  
 
 ②基板とフレームをタッピングネジで固定します。  
 ![Image](https://github.com/user-attachments/assets/267b301c-e537-4206-bf3f-c02d329d561f)
