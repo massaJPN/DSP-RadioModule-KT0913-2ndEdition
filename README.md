@@ -101,41 +101,37 @@ RXCFG [Address 0X0F]
 ・Cボタンで100kHzアップ、Bボタンで100kHzダウンします。  
 ・AボタンでFM/AMバンド切替します。
 ```
+// ボタンＢプッシュで周波数100kHzダウン
   if (M5.BtnB.wasPressed() && dial == 0 && AM_FM == "FM") {
     REGISTER_ADDRESS = TUNE;
-    I2CreadMULTIbyte();
+    I2CreadMULTIbyte();  // レジスタ値を読み込む関数を呼び出す
     data = (data + 0x0002) | 0B1000000000000000; // + 100KHz step   = 100/50  76MHz - 94.1MHz
     if ( (data & 0B0000111111111111)  > 1882){
       data = 0B1000010111110000; // 76MHz 1520 = 5F0
     }
-  I2CsendMULTIbyte();
+  I2CsendMULTIbyte();  // レジスタ値を書き込む関数を呼び出す
   }
 
+// ボタンＣプッシュで周波数100kHzアップ
   if (M5.BtnC.wasPressed() && dial == 0 && AM_FM == "FM") {
     REGISTER_ADDRESS = TUNE;
-    I2CreadMULTIbyte();
-
+    I2CreadMULTIbyte();  // レジスタ値を読み込む関数を呼び出す
     data = (data - 0x0002) | 0B1000000000000000; // - 100KHz step   = 100/50  76MHz - 94.1MHz
     if ( (data & 0B0000111111111111) <1520) {  //<76MHz
       data = 0B1000011101011010; // 94.1MHz  1882
     }
-  I2CsendMULTIbyte();
+  I2CsendMULTIbyte();  // レジスタ値を書き込む関数を呼び出す
   }
 
-if (M5.BtnA.wasReleasefor(50) && (AM_FM == "FM") ){
-  M5.Display.setCursor(0, 85);
-  M5.Display.setTextSize(1);
-  M5.Display.setFont(&fonts::Font7);
-  M5.Display.print("     ");
-  am_mode();
-}
-else if (M5.BtnA.wasReleasefor(50) && (AM_FM == "AM") ){
-  M5.Display.setCursor(0, 85);
-  M5.Display.setTextSize(1);
-  M5.Display.setFont(&fonts::Font7);
-  M5.Display.print("     ");
-  fm_mode();
-}
+// ボタンAプッシュでＦＭとＡＭの切替
+  if (M5.BtnA.wasReleasefor(50) && (AM_FM == "FM") ){
+    am_mode(); // AMに切り替える関数を呼び出す
+    eeprom_write(); //EEPROMに設定値保存する関数を呼び出す
+  }
+  else if (M5.BtnA.wasReleasefor(50) && (AM_FM == "AM") ){
+    fm_mode(); // FMに切り替える関数を呼び出す
+    eeprom_write(); //EEPROMに設定値保存する関数を呼び出す 
+  }
 ```
 
 [![紹介動画]()](https://youtu.be/vZIJL4G87UQ)
