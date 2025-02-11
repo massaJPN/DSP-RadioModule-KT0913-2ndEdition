@@ -133,10 +133,10 @@ RXCFG [Address 0X0F]
     eeprom_write(); //EEPROMに設定値保存する関数を呼び出す 
   }
 ```
-
-[![紹介動画]()](https://youtu.be/2X35qApOtjI))
+簡単ですが動画もご参照ください。  
+[![紹介動画](https://github.com/user-attachments/assets/61a7eb82-e0a9-4306-9172-6ea8e896e5f1)](https://youtu.be/2X35qApOtjI))
 
 ## 関連ブログ  
-こちらのブログ記事もご参照下さい。  
+こちらのブログ記事でも解説していますのでよろしければご訪問お願いします。  
 https://massa4649.com/kt0913_2/  
 
