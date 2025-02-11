@@ -134,7 +134,7 @@ RXCFG [Address 0X0F]
   }
 ```
 
-[![紹介動画]()](https://youtu.be/vZIJL4G87UQ)
+[![紹介動画]()](https://youtu.be/2X35qApOtjI))
 
 ## 関連ブログ  
 こちらのブログ記事もご参照下さい。  
