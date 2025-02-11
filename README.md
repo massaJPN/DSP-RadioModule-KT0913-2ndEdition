@@ -1,8 +1,10 @@
 # M5Stack用ワイドFM対応ラジオモジュール
 https://manage.booth.pm/items/6387580/ の製品説明となります。  
+(当説明ページのモジュールは試作品を使用した写真も含まれています）  
 
 ![Image](https://github.com/user-attachments/assets/568a3024-8545-4302-8e9c-567f6165033c)  
-※ハードウェア説明図  
+※各部の名称説明写真  
+
 
 ## 概要
 ・KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
