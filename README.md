@@ -2,7 +2,7 @@
 https://manage.booth.pm/items/6387580/ の製品説明となります。  
 
 ![Image](https://github.com/user-attachments/assets/568a3024-8545-4302-8e9c-567f6165033c)  
-※販売形態ではM5-13.2モジュール用 2x15ピンソケットを使用しています。  
+※ハードウェア説明図。  
 
 ## 概要
 ・KTMicro製SDR方式のデジタルFM/MW/SWレシーバーチップ "KT0913"を搭載したM5StackとI2C通信で制御するラジオモジュールです。  
